@@ -17,7 +17,7 @@ class VideoProcessingApplication
 		if(!$_POST)
 			die('Access denied. Only POST requests available.');
 		
-		$videoFolder = '/var/www/nk/videos';
+		$videoFolder = 'videos';
 		
 		// Init file manager
 		$fileManager = FileManager::getInstance();
