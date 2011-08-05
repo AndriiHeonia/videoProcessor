@@ -1,0 +1,1 @@
+a:2:{s:7:"request";a:3:{s:8:"Filename";s:5:"1.avi";s:6:"folder";s:10:"/nk/videos";s:6:"Upload";s:12:"Submit Query";}s:5:"files";a:1:{s:5:"movie";a:5:{s:4:"name";s:5:"1.avi";s:4:"type";s:24:"application/octet-stream";s:8:"tmp_name";s:14:"/tmp/phpyb6rEG";s:5:"error";i:0;s:4:"size";i:77648734;}}}
