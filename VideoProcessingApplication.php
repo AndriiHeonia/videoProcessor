@@ -26,22 +26,6 @@ class VideoProcessingApplication
 
 		// Move original file from templary folder to persistent folder
 		$fileManager->moveUploadedFile($uploadedFile, $videoFolder);
-		
-		$videoConverter = new FFMpegConverter();
-		$videoConverter->setInputFileName($videoFolder . DIRECTORY_SEPARATOR . $uploadedFile->getName());
-		$videoConverter->setOutputFileName($videoFolder . DIRECTORY_SEPARATOR . uniqid() . '.flv');
-		$videoConverter->setOutputFileParams(array(
-			'-ab'=>56,
-			'-ar'=>44100,
-			'-b'=>200,
-			'-r'=>15,
-			'-s'=>'320x240',
-			'-f'=>'flv',
-		));
-
-		$result = $videoConverter->execute();
-		
-		var_dump($result);
 	}
 }
 
