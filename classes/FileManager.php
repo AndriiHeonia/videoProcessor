@@ -12,9 +12,8 @@ class FileManager implements IFileManager
 	
 	private function __constructor()
 	{}
-    private function __clone() 
-    {}
-    public static function getInstance()
+
+	public static function getInstance()
 	{
 		if(self::$_instance===null)
 			self::$_instance = new self();
