@@ -10,7 +10,7 @@ class FileManager implements IFileManager
 {
 	private static $_instance;
 	
-	private function __constructor()
+	private function __construct()
 	{}
 
 	public static function getInstance()

@@ -1,10 +1,10 @@
 <?php
 /**
- * IQueueListenerImpl interface
+ * IQueueListener interface
  * 
  * @author Andrey Geonya
  */
-interface IQueueListenerImpl
+interface IQueueListener
 {
 	public function listenQueue($key);
 }
