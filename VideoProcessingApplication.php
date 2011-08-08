@@ -13,10 +13,10 @@ class VideoProcessingApplication
 	public function main()
 	{
 		// Allow only POST requests
+        
 		if(!$_POST)
 			die('Access denied. Only POST requests available.');
-		
-		$videoFolder = '/media/www/public_html/videoProcessor/testMovies';
+		$videoFolder = 'videos';
 		
 		// Init file manager
 		$fileManager = FileManager::getInstance();
@@ -40,8 +40,6 @@ class VideoProcessingApplication
 		));
 
 		$result = $videoConverter->execute();
-		
-		var_dump($result);
 	}
 }
 

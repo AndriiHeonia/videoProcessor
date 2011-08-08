@@ -80,7 +80,6 @@ class FFMpegConverter implements IVideoConverter
 			$command .= "$key $value ";
 		
 		$command .= $this->getOutputFileName();
-				
 		exec($command, $commandOutput, $result);
 				
 		return $result!==0 ? false : true;
