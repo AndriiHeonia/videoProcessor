@@ -8,7 +8,7 @@ interface IVideoConverter
 {
 	public function getConverterFileName();	
 	
-	public function setConverterFileName($path);
+	public function setConverterFileName($filename);
 	
 	public function getInputFileName();
 	

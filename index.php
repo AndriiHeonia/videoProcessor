@@ -21,6 +21,6 @@
     </head>
 
     <body>
-        <input id="movie" name="movie" type="file" />
+		<input id="movie" name="movie" type="file" />
     </body>
 </html>
