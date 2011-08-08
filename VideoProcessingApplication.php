@@ -47,7 +47,9 @@ class VideoProcessingApplication
 			));
 		
 		// Set command to the queue
-		$memcache->set('videoToConvert', $videoConvertingCommand);		
+		$memcache->set('videoToConvert', $videoConvertingCommand);
+		
+		echo 1;
 	}
 }
 
