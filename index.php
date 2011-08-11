@@ -9,7 +9,7 @@
         <script type="text/javascript">
             $(document).ready(function() {
               $('#movie').uploadify({
-                'uploader'  : 'uploadify.swf',
+                'uploader'  : 'flash/uploadify.swf',
                 'script'    : 'VideoProcessingApplication.php',
                 'cancelImg' : 'images/cancel.png',
                 'folder'    : 'videos',
