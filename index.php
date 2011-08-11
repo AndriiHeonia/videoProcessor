@@ -19,7 +19,6 @@
             });
         </script>
     </head>
-
     <body>
 		<input id="movie" name="movie" type="file" />
     </body>

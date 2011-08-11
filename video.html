@@ -1,0 +1,39 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<!-- A minimal Flowplayer setup to get you started -->
+  
+
+	<!-- 
+		include flowplayer JavaScript file that does  
+		Flash embedding and provides the Flowplayer API.
+	-->
+	<script type="text/javascript" src="js/flowplayer-3.2.6.min.js"></script>
+	
+	<!-- some minimal styling, can be removed -->
+	<link rel="stylesheet" type="text/css" href="css/flowplayer.css">
+	
+	<!-- page title -->
+	<title></title>
+
+</head><body>
+
+	<div id="page">
+		
+		<h1>Minimal Flowplayer setup</h1>
+	
+		<p>View commented source code to get familiar with Flowplayer installation.</p>
+		
+		<!-- this A tag is where your Flowplayer will be placed. it can be anywhere -->
+		<a  
+			 href="http://localhost/videoProcessor/videos/4e42814d52a08"
+			 style="display:block;width:520px;height:330px"  
+			 id="player"> 
+		</a> 
+		<!-- this will install flowplayer inside previous A- tag. -->
+		<script>
+			flowplayer("player", "flash/flowplayer-3.2.7.swf");
+		</script>
+	</div>
+	
+	
+</body></html>

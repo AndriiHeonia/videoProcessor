@@ -13,12 +13,11 @@ class VideoProcessingApplication
 {
 	public function main()
 	{
-		// Allow only POST requests
+        // Allow only POST requests
 		if(!$_POST)
 			die('Access denied. Only POST requests available.');
-		
+        
 		$videoFolder = 'videos';
-		
 		// Init file manager
 		$fileManager = FileManager::getInstance();
 		
